@@ -34,7 +34,15 @@ int collatz_eval (int i, int j) {
     assert(i > 0);
     assert(j > 0);
     // <your code>
-    int v = 1;
+	int temp = 1;
+	int max = 1;
+	for (i; i < j+1; i++){
+		temp = collatz_cycle_length(i);
+		if (temp > max)
+			max = temp;
+	}
+	// <your code>
+    int v = max;
     assert(v > 0);
     return v;}
 	

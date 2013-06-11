@@ -37,6 +37,14 @@ bool collatz_read (std::istream&, int&, int&);
  */
 int collatz_eval (int, int);
 
+// --------------------
+// collatz_cycle_length
+// --------------------
+/**
+ * Returns the cycle length of the inputed integer.
+ */
+int collatz_cycle_length(int n);
+
 // -------------
 // collatz_print
 // -------------

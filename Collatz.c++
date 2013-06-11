@@ -52,7 +52,7 @@ int collatz_cycle_length(int n){
 			n = 3*n + 1;
 		c++;
 	}
-	assert c > 0;
+	assert (c > 0);
 	return c;
 }
 

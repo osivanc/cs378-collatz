@@ -36,10 +36,28 @@ int collatz_eval (int i, int j) {
     // <your code>
 	int temp = 1;
 	int max = 1;
+	int k = 0;
+	if (i > j){
+		k = i;
+		i = j;
+		j = k;
+	}
+	int length_list[j];
+	assert (n > 0);
+	assert (p > 0);
+	int count = 1;
 	for (i; i < j+1; i++){
-		temp = collatz_cycle_length(i);
-		if (temp > max)
-			max = temp;
+		int c = 1;
+		int n = i;
+		while (n > 1){
+			if (n % 2 == 0)
+				n = (n/2);
+			else
+				n = 3*n + 1;
+			c++;
+		}
+		if (c > max)
+			max = c;
 	}
 	// <your code>
     int v = max;

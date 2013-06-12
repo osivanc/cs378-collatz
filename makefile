@@ -3,7 +3,7 @@ all:
 	make test
 
 diff: RunCollatz
-	./RunCollatz < RunCollatz.in > RunCollatz.tmp
+	./RunCollatz < 1000RunCollatz.in > RunCollatz.tmp
 	diff RunCollatz.out RunCollatz.tmp
 	rm RunCollatz.tmp
 

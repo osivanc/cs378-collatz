@@ -1,0 +1,127 @@
+commit fba79b4e4013bd628abdb7d0fe1c87f98711551f
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Wed Jun 12 20:50:58 2013 -0500
+
+    Ran doxygen as instructed and tested other acceptance/unit tests
+
+commit 67e9578a20a19320aad7439c89a69d2e5740c14e
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Wed Jun 12 15:46:40 2013 -0500
+
+    Renamed all necessary files to include uteid
+
+commit c658980074399059e4fe71ebe282398bd88548c9
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Wed Jun 12 15:18:36 2013 -0500
+
+    Unit tests added
+
+commit ef8466c1ab3fb854155d65afaabb118f4c2c9961
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 23:33:37 2013 -0500
+
+    Implemented lazy cache on Collatz files, accepted by sphere
+
+commit 473e8d0e7b83091061e60803f0c4b2cd93df5281
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 21:51:28 2013 -0500
+
+    Fixed collatz_solve to accept make tests but not in sphere
+
+commit 5ecde404411493d2fc524a5db5bc6f9cfb5ed41d
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 15:11:04 2013 -0500
+
+    changed order of functions in SphereCollatz, still not working.
+
+commit 27aa75531e0fb66402304b006903b2792773773e
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 14:39:03 2013 -0500
+
+    Filled out basic SphereCollatz file
+
+commit b19dd065fc30735b702bd57a3775454f04b083b9
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 14:37:41 2013 -0500
+
+    Created SphereCollatz file and wrote working basic collatz_eval (according to makefile)
+
+commit dc5d414c6285d27ce38b57267b6ce7eef2c3341d
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 14:21:38 2013 -0500
+
+    Added function collatz_cycle_length to Collatz files
+
+commit f8fdeff95118f65b248d70fdde636e340395c1d8
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 13:55:13 2013 -0500
+
+    Ran make with new Collatz.c++ file successfully
+
+commit 66827a80f0d8d5408de801aa26f3fbcd2f6daa1c
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Tue Jun 11 13:48:00 2013 -0500
+
+    Downloaded Collatz.c++ skeleton file
+
+commit 1619e54364f5c4e731653dd8d547844bbccc20f4
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sun Jun 9 21:50:55 2013 -0500
+
+    Ran readme file successfully in windows
+
+commit 006ce1b5fe80218f3c117b3c01ce2aca11b61d98
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sun Jun 9 14:09:34 2013 -0500
+
+    Moved provided files back to main directory
+
+commit 52b3dcf9e1e65fcc6aef0a662d418b06d0b7ee2f
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sun Jun 9 14:01:30 2013 -0500
+
+    Copied some files provided from Downing
+
+commit de373db603c82d77180ab4aa8afe99927eaf792d
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 20:12:11 2013 -0500
+
+    makefile created
+
+commit 8a09913c38bd0de646a19a6337362d2c2f6025ab
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 20:11:16 2013 -0500
+
+    Directory back to normal
+
+commit ca4084c548fb8163f97a08c409f4c2a6203af573
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 20:10:44 2013 -0500
+
+    Revert "removed second readme"
+    
+    This reverts commit 683feec15a19f82f1fb1e120e1b6432d363ef0f0.
+
+commit 683feec15a19f82f1fb1e120e1b6432d363ef0f0
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 20:09:02 2013 -0500
+
+    removed second readme
+
+commit f6f95ae85872e2157ce8d8b10b703a498071f81c
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 19:08:50 2013 -0500
+
+    Created readme2 with text
+
+commit 579571acfe4cb082144138af838567e7cac3c8af
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 19:07:18 2013 -0500
+
+    Added a line to readme for testing
+
+commit 9c82844e04be3190dee4247e8b7c704d87b19a6b
+Author: Oscar I A Chavarria <osivanc@utexas.edu>
+Date:   Sat Jun 8 17:00:55 2013 -0700
+
+    Initial commit

@@ -20,7 +20,7 @@ run: RunCollatz
 	./RunCollatz < RunCollatz.in
 
 runv: RunCollatz
-	valgrind RunCollatz < RunCollatz.in
+	./valgrind RunCollatz < RunCollatz.in
 
 TestCollatz: Collatz.h Collatz.c++ TestCollatz.c++
 	g++ -pedantic -std=c++0x -Wall Collatz.c++ TestCollatz.c++ -o TestCollatz -lcppunit -ldl
